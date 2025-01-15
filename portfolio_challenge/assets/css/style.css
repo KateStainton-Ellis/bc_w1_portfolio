@@ -1,0 +1,67 @@
+* {
+    font-family: Helvetica, Verdana, sans-serif;
+    color: #333333;
+}
+
+body {
+    margin: 20px;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: teal;
+    background-color: lightblue;
+}
+
+#title_heading {
+    text-align:center;
+    }
+
+nav a {
+    text-decoration:none;
+}
+
+/* Applying global styling to all images. Might refine depending on future needs. */
+/* Note to self: default display mode for img is inline */
+img {
+    padding: 10px;
+    background-color: lightblue;
+    margin: 5px;
+}
+
+/* Attempting to align text inline to the right of images. */
+/* TODO Apply a more flexible technique when appropriate skills acquired :) */
+.side_text {
+    display: inline-block;
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+#user-input {
+    padding: 10px;
+    background-color: lightblue;
+    margin: 5px;
+    text-align: center;
+}
+
+#submit {
+    font-size:16px;
+    background-color:#ddd;
+}
+
+#submit:hover {
+        background-color:lightblue;
+        color: black;
+      }
+
+footer {
+    padding: 3px;
+    font-size: smaller;
+    font-weight: lighter;
+    background-color: lightgray;
+    margin: 5px;
+    text-align: center;
+}
